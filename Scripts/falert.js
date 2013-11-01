@@ -41,5 +41,6 @@
         $container.remove();
         $overlay.remove();
     });
-
+	
+	$button.focus();
 }
