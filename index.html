@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fAlert Demo</title>
+	
+	<link href="Styles/fAlert.css" rel="stylesheet" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="Scripts/falert.js" type="text/javascript"></script>
+	
+</head>
+
+<body>
+	<button id="button1">Show an fAlert</button>
+	
+	
+	<script>
+		$('#button1').click(function() {
+			falert("This is an example of fAlert... this string is the <em>Message</em> and supports full HTML formatting.","Awesome!","I'm impressed");
+		});
+		
+	</script>
+	
+</body>
+</html>
