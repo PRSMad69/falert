@@ -10,3 +10,5 @@ Use as shown below:
 	
 
 If 'Cancel Button Text' is not provided, or skipped over with "" then no cancel button will be rendered - allowing for an "OK only" message.
+
+A demo is available here: <http://prsmad69.github.io/falert>
